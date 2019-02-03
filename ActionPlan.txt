@@ -1,0 +1,17 @@
+Thoughts
+
+Is there an algorithm to distinguish Prime numbers?.
+
+We know that primes numbers a divisable only by 1 and themselves. PROPERTY_ONE
+
+We know that prime numbers ends with 1, 3, 7 or 9. starting from 6 (since 2 and 5 are prime numbers) PROPERTY_TWO
+
+---------------------------------------------------------------------------------------------------------------------
+
+A number can be divided by a set of number, where some members of that set may be divided by other membres of that set (recursively)
+
+To solve I was thinking of the following: 
+
+- I list all the possible divisor of the number (Create the set of divisor)  //Why: because the answer is within that set
+- I find the subset of all odd numbers (including two - egde case - )        //Why: because a prime number cannot be even (except for 2)
+- I keep all numbers that ends with 1, 3, 7 and 9.                           //Why: because all prime numbers (above 5) ends with these numbers
