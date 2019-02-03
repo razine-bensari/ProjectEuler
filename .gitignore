@@ -1,0 +1,4 @@
+#IDE directory to not push/commit
+.vscode/
+.idea/
+npm/
